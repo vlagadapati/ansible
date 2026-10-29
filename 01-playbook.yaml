@@ -1,0 +1,6 @@
+-name: ping demo
+hosts: local #Target ansible server itself
+connection: local #It will not except credentails
+tasks: #tasks == modules == collections
+- name:ping localhost
+  ping:
