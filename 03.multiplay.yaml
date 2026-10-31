@@ -9,7 +9,7 @@
     debug:
       msg: "Hello from PLAY-1 TASK-2"
 
-name: PLAY-2
+- name: PLAY-2
   hosts:  local
   connection: local
   tasks:  
