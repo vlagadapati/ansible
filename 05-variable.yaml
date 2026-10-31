@@ -1,0 +1,12 @@
+- name: demo on varaibles:
+  hosts: local
+  connection: local
+  vars:
+    course: DevOps
+    trainer: Venkatanarayana L 
+    duration: 15Hrs
+
+  tasks: 
+  - name: print the vars
+    debug: "Hi, i am learning {{ course }}, from {{ trainer}}, duration is {{ duration}}"
+    
