@@ -1,4 +1,4 @@
-- name: demo on varaibles:
+- name: demo on varaibles
   hosts: local
   connection: local
   vars:
@@ -9,4 +9,4 @@
   tasks: 
   - name: print the vars
     debug: "Hi, i am learning {{ course }}, from {{ trainer}}, duration is {{ duration}}"
-    
+
