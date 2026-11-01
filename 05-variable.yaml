@@ -1,6 +1,6 @@
 - name: demo on varaibles
   hosts: localhost
-  connection: localhost
+  connection: local 
   vars:
     course: "DevOps"
     trainer: Venkatanarayana L 
@@ -9,5 +9,5 @@
   tasks: 
   - name: print the vars
     debug: 
-      msg: "Hi, i am learning {{ course }} from {{ trainer}}, duration is {{ duration }}"
+      msg: "Hi, i am learning {{ course }} from {{ trainer  }}, duration is {{ duration }}"
 
