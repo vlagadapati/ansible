@@ -1,8 +1,8 @@
 - name: demo on varaibles
-  hosts: local
-  connection: local
+  hosts: localhost
+  connection: localhost
   vars:
-    course: DevOps
+    course: "DevOps"
     trainer: Venkatanarayana L 
     duration: 15Hrs
 
