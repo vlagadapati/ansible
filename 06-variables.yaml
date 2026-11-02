@@ -4,11 +4,21 @@
   vars:
     course: "Ansible"
     trainer:  "Venkatanarayana.L"
-    Duration: "15Hrs"
+    duration: "15Hrs"
   tasks:
   - name: print the variables
     debug:  
-      msg:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ Duration }}"
+      msg:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ duration }}"
+  
+  - name: print the task level variables
+    vars:
+      course: "DevOps"
+      trainer:  "Ruthvik.L"
+      duration: "8hrs"
+      debug:
+        msg:"Hi, i am learning {{ course }},from {{ trainer }}, duration is {duration}"
+
+
 
    
 
