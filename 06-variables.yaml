@@ -8,7 +8,7 @@
   tasks:
   - name: print the variables
     debug:  
-      msg:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ duration }}"
+      msg:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ Duration }}"
 
    
 
