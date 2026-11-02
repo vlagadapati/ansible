@@ -1,0 +1,10 @@
+- name: task level variables
+  hosts:  local
+  connection: local
+  vars:
+    course: "Ansible"
+    trainer:  "Venkatanarayana.L"
+    Duration: "15Hrs"
+  tasks:
+  - name: print the variables
+    debug:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ duration }}" 
