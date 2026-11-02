@@ -1,0 +1,8 @@
+- name: call the varaibles
+  hosts:  local
+  connection: local
+  - vars: 
+      course.yaml
+- name: print the varaibles
+  debug:
+    msg:  "Hi, i am learning {{ course }}, from the trainer {{ trainer }}, training duration {{ duration }} and course fee is {{ fee }}"
