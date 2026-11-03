@@ -2,7 +2,7 @@
   hosts:  local
   connection: local
   tasks:
-  - name: print the varaibles
+- name: print the varaibles
     debug: 
       msg:  "Hi, i am learning {{ course }},from {{ trainer }}, duration is {{ duration }}"
 
