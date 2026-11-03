@@ -3,9 +3,9 @@
   connection: local
   vars:
     course: "AIOps with DevSecOps on aws" # string
-    duration_in_hrs: 150 #number
-    is_live_session:  yes
-    topics:  #list
+    duration_in_hrs: 150 #  number
+    is_live_session:  yes # boolean
+    topics:  #  list
     - Linux
     - shell
     - Ansible
@@ -13,7 +13,7 @@
     more_details: #dictonary/map
       trainer:  venkatanarayana
       months: 4
-    exact_duration_in_months:4.5
+    exact_duration_in_months: 4.5
   tasks:
   - name: print info and type
     debug:
